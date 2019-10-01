@@ -127,7 +127,7 @@ function updateAnimal(theId)
     theModalBodyFormGroupText.required = true;
     theModalBodyFormGroup1.append(theModalBodyFormGroupText);
 
-// Adds the Gender form ------------------------------------
+ // Adds the Gender form ------------------------------------
     // Creates input group
     theModalBodyFormGroup1 = document.createElement("div");
     theModalBodyFormGroup1.className = "input-group mb-3";
@@ -148,17 +148,7 @@ function updateAnimal(theId)
     theModalBodyFormGroupText.className = "form-control"
     theModalBodyFormGroupText.id = "formGender";
     theModalBodyFormGroup1.append(theModalBodyFormGroupText);
-
-        // Adds the Male to options
-        theModalBodyFormGroupSelect = document.createElement("option");
-        theModalBodyFormGroupSelect.innerHTML = "Male"
-        theModalBodyFormGroupText.append(theModalBodyFormGroupSelect);
-        
-        // Adds the Female to options
-        theModalBodyFormGroupSelect = document.createElement("option");
-        theModalBodyFormGroupSelect.innerHTML = "Female"
-        theModalBodyFormGroupText.append(theModalBodyFormGroupSelect);
-
+    
 // Adds the Image form------------------------------------------
     // Creates input group
     theModalBodyFormGroup1 = document.createElement("div");
